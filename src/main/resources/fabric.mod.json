@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "azure",
+    "version": "${version}",
+    "name": "Azure",
+    "description": "A Fabric mod template with Cloth Config and ModMenu integration.",
+    "authors": [
+        "AzureLuma"
+    ],
+    "contact": {
+        "sources": "https://github.com/AzureLuma/Azure"
+    },
+    "license": "GPL-3.0",
+    "icon": "assets/azure/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "me.azureluma.azure.client.AzureClient"
+        ],
+        "main": [
+            "me.azureluma.azure.Azure"
+        ],
+        "modmenu": [
+            "me.azureluma.azure.AzureModMenu"
+        ]
+    },
+    "mixins": [
+        "azure.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.11.6",
+        "fabric": ">=0.28.0",
+        "minecraft": "1.16.5",
+        "cloth-config2": "~4.11.0"
+    }
+}

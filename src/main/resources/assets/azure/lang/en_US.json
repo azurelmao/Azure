@@ -1,0 +1,5 @@
+{
+    "text.autoconfig.azure.title": "Title",
+    "text.autoconfig.azure.option.azureValue": "Text",
+    "text.autoconfig.azure.option.azureValue.@Tooltip": "Tooltip"
+}
