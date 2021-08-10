@@ -1,5 +1,6 @@
 package me.azureluma.azure;
 
+import me.azureluma.azure.client.AzureConfig;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
 import net.fabricmc.api.ModInitializer;

@@ -1,4 +1,4 @@
-package me.azureluma.azure;
+package me.azureluma.azure.client;
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
